@@ -1,0 +1,16 @@
+{
+  "name": "經管及事業部會議紀錄產生器",
+  "short_name": "會議紀錄",
+  "description": "把會議逐字稿整理成一頁的經管事業部會議紀錄 Word 檔",
+  "lang": "zh-Hant",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#05194a",
+  "theme_color": "#05194a",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

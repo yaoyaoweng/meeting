@@ -1,0 +1,28 @@
+經管及事業部會議紀錄產生器（可安裝到手機的網頁 App）
+
+這個資料夾要放到一個「網址」上，手機才能安裝。以下兩種方法擇一。
+注意：網站必須是 https（下面兩種都是）。檔案全部放在同一層，不要改檔名。
+
+【方法一：GitHub Pages（免費，長期使用）】
+1. 到 github.com 註冊帳號並登入。
+2. 右上角「+」→ New repository，名稱填 minutes，選 Public，按 Create。
+3. 點「uploading an existing file」，把本資料夾裡的所有檔案和 icons 資料夾拖進去，按 Commit changes。
+4. 進 Settings → Pages，Source 選 Deploy from a branch，Branch 選 main、資料夾選 / (root)，按 Save。
+5. 約 1～2 分鐘後，頁面上方會出現網址，格式像 https://你的帳號.github.io/minutes/
+
+【方法二：Netlify Drop（最快，不用寫程式）】
+1. 到 app.netlify.com/drop，註冊並登入。
+2. 把整個資料夾拖進頁面，等它上傳完，就會得到一個網址。
+3. 想長久保留，請在 Netlify 帳號裡確認這個網站有存在帳號下。
+
+【安裝到手機】
+- iPhone：用 Safari 開網址 → 分享 → 加入主畫面。
+- Android：用 Chrome 開網址 → 選單 → 安裝應用程式（或加到主畫面）。
+- 電腦 Chrome／Edge：網址列右邊的「安裝」圖示。
+
+【每次使用】
+1. 貼上或上傳逐字稿，按「複製提示詞」。
+2. 到 Claude App 貼上送出，等回覆後複製整段回覆。
+3. 回到本 App，貼在「Claude 的回覆」欄，按「套用」，核對內容後下載 Word。
+
+【更新】把新版檔案覆蓋上傳即可。sw.js 裡的 minutes-v2 改成 minutes-v3，手機才會抓新版。
